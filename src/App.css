@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+* {
+   font-family: myFirstFont; /* تعریف این فونت در پایین در فونت-فیس انجام شده */
+   box-sizing: border-box; /*برای اینکه سایز پدینگ جدا حساب نشه */
+   margin: 0%;    /*برای اینکه حاشیه ای بین المنت ها با صفحه نباشه*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* body {
+   margin: 0%;    برای اینکه حاشیه ای بین المنت ها با صفحه نباشه
+} */
+.home { /*این کلاس توی هوم.جی اس تعریف شده*/
+   /*background-image: url('./images/img-2.jpg'); این ویژگی ها در آینده باید بازنگری بشه */
+   padding-top: 180px;
+   text-align: center;
+   height: 97vh;
+   font-size: 2rem;
+   background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home p {
+   font-size: 1.3rem;
+   line-height: 45px;
+   
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.glass h1 {
+   text-align: center;
+   padding:0px;
+}
+.glass .persia {
+   direction: rtl;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* اضافه کردن فونت فارسی مناسب به کل المنت ها */
+@font-face {
+    font-family: myFirstFont;
+    src: url('kkk.ttf');
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
