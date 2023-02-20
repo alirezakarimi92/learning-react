@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
     <ul>
-      <li><Link class="active" href="/dashco">
+      <li><Link class="active" to="/dashco">
              DASHCO <i className="fab fa-typo3"></i>
           </Link>
       </li>
