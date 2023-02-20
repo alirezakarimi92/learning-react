@@ -9,36 +9,36 @@ function Navbar() {
              DASHCO <i className="fab fa-typo3"></i>
           </Link>
       </li>
-      <li className="menue"><a href="glass">شیشه</a></li>
+      <li className="menue"><Link to="/glass">شیشه</Link></li>
       <li className="menue dropdown">
-        <a href="production-process" className='dropbtn'>فرآیند تولید</a>
+        <Link to="/production-process" className='dropbtn'>فرآیند تولید</Link>
         <div className='dropdown-content product'>
-          <a href='مواد-اولیه'>ورود مواد اولیه</a>
-          <a href='batch-plant'>بچ پلنت</a>
-          <a href='furnace'>کوره</a>
-          <a href='runway'>runway</a>
-          <a href='pull-machine'>ماشین کشش</a>
-          <a href='glazing'>glazing</a>
-          <a href='bundle'>بسته بندی</a>
+          <Link to='/primary'>ورود مواد اولیه</Link>
+          <Link to='/batch-plant'>بچ پلنت</Link>
+          <Link to='/furnace'>کوره</Link>
+          <Link to='/runway'>runway</Link>
+          <Link to='/pull-machine'>ماشین کشش</Link>
+          <Link to='/glazing'>glazing</Link>
+          <Link to='/bundle'>بسته بندی</Link>
         </div>
       </li>
       <li className="menue dropdown">
-        <a href="units" className='dropbtn'>واحدها</a>
+        <Link to="/units" className='dropbtn'>واحدها</Link>
         <div className='dropdown-content units'>
-          <a href='R&D'>R&D</a>
-          <a href='HSE'>HSE</a>
-          <a href='pruduct'>تولید</a>
-          <a href='Technical'>فنی</a>
-          <a href='PM'>PM</a>
-          <a href='QG'>تضمین کیفیت</a>
-          <a href='QC'>کنترل کیفیت</a>
-          <a href='LAB'>آزمایشگاه</a>
-          <a href='store'>انبار</a>
+          <Link to='/R&D'>R&D</Link>
+          <Link to='/HSE'>HSE</Link>
+          <Link to='/pruduct'>تولید</Link>
+          <Link to='/Technical'>فنی</Link>
+          <Link to='/PM'>PM</Link>
+          <Link to='/QG'>تضمین کیفیت</Link>
+          <Link to='/QC'>کنترل کیفیت</Link>
+          <Link to='/LAB'>آزمایشگاه</Link>
+          <Link to='/store'>انبار</Link>
         </div>
       </li>
-      <li className="menue"><a href="equipment">ابزارها</a></li>
-      <li className="menue"><a href="Projects">پروژه ها</a></li>
-      <li className="menue"><a href="cold-repairs">تعمیرات سرد</a></li>
+      <li className="menue"><Link to="/equipment">ابزارها</Link></li>
+      <li className="menue"><Link to="/Projects">پروژه ها</Link></li>
+      <li className="menue"><Link to="/cold-repairs">تعمیرات سرد</Link></li>
     </ul>
     {//<nav className='navbar'>
     //   <div className='Logo-container'>
