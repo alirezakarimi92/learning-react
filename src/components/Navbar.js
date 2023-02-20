@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar3.css';
 function Navbar() {
   return (
     <>
     <ul>
-      <li><a class="active" href="/dashco">
+      <li><Link class="active" href="/dashco">
              DASHCO <i className="fab fa-typo3"></i>
-          </a>
+          </Link>
       </li>
       <li className="menue"><a href="glass">شیشه</a></li>
       <li className="menue dropdown">
